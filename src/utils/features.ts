@@ -446,7 +446,7 @@ const getInstanceFeatures = (instance: Instance) => {
      * @see GET /api/v1/pleroma/events/:id/ics
      * @see GET /api/v1/pleroma/search/location
      */
-    events: features.includes('events'),
+    events: false,
 
     /**
      * Ability to address recipients of a status explicitly (with `to`).
