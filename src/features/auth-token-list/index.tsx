@@ -49,11 +49,10 @@ const AuthToken: React.FC<IAuthToken> = ({ token, isCurrent }) => {
             <Text size='sm' theme='muted'>
               <FormattedDate
                 value={token.valid_until}
-                hour12
                 year='numeric'
-                month='short'
+                month='2-digit'
                 day='2-digit'
-                hour='numeric'
+                hour='2-digit'
                 minute='2-digit'
               />
             </Text>

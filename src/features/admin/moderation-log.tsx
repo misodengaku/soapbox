@@ -77,12 +77,11 @@ const LogItem: React.FC<ILogItem> = ({ log }) => {
 
       <Text theme='muted' size='xs'>
         <FormattedDate
-          value={new Date(log.time * 1000)}
-          hour12
+          value={new Date(log.time * 1000)}          
           year='numeric'
-          month='short'
+          month='2-digit'
           day='2-digit'
-          hour='numeric'
+          hour='2-digit'
           minute='2-digit'
         />
       </Text>

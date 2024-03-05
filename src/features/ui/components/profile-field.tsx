@@ -17,11 +17,11 @@ const messages = defineMessages({
 });
 
 const dateFormatOptions: FormatDateOptions = {
-  month: 'short',
-  day: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
   year: 'numeric',
-  hour12: true,
-  hour: 'numeric',
+  hour12: false,
+  hour: '2-digit',
   minute: '2-digit',
 };
 

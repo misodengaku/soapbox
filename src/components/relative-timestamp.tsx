@@ -17,17 +17,17 @@ const messages = defineMessages({
 });
 
 export const dateFormatOptions: FormatDateOptions = {
-  hour12: true,
+  hour12: false,
   year: 'numeric',
-  month: 'short',
+  month: '2-digit',
   day: '2-digit',
-  hour: 'numeric',
+  hour: '2-digit',
   minute: '2-digit',
 };
 
 const shortDateFormatOptions: FormatDateOptions = {
-  month: 'short',
-  day: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
 };
 
 const SECOND = 1000;

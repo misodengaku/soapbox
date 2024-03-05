@@ -145,7 +145,7 @@ const ChatMessage = (props: IChatMessage) => {
     return intl.formatDate(new Date(chatMessage.created_at), {
       hour12: false,
       year: 'numeric',
-      month: 'short',
+      month: '2-digit',
       day: '2-digit',
       hour: '2-digit',
       minute: '2-digit',
