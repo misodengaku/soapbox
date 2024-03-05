@@ -598,7 +598,7 @@
   "gdpr.learn_more": "Learn more",
   "gdpr.message": "{siteTitle} uses session cookies, which are essential to the website's functioning.",
   "gdpr.title": "{siteTitle} uses cookies",
-  "getting_started.open_source_notice": "{code_link} を使用",
+  "getting_started.open_source_notice": "本サーバーのフロントエンドには {code_link} を変更したものを使用しています。変更内容は https://github.com/misodengaku/soapbox で公開されています。",
   "group.banned.message": "You are banned from {group}",
   "group.cancel_request": "Cancel Request",
   "group.delete.success": "Group successfully deleted",
