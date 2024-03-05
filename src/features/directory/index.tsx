@@ -15,6 +15,8 @@ const messages = defineMessages({
   recentlyActive: { id: 'directory.recently_active', defaultMessage: 'Recently active' },
   newArrivals: { id: 'directory.new_arrivals', defaultMessage: 'New arrivals' },
   local: { id: 'directory.local', defaultMessage: 'From {domain} only' },
+  displayFilter: { id: 'directory.filter.display', defaultMessage: 'Display filter' },
+  fediverseFilter: { id: 'directory.filter.fediverse', defaultMessage: 'Fediverse filter' },
   federated: { id: 'directory.federated', defaultMessage: 'From known fediverse' },
 });
 
@@ -53,9 +55,9 @@ const Directory = () => {
       <Stack space={4}>
         <div className='grid grid-cols-2 gap-2'>
           <div>
-            <Text weight='medium'>Display filter</Text>
+            <Text weight='medium'>{intl.formatMessage(messages.displayFilter)}</Text>
             <fieldset className='mt-3'>
-              <legend className='sr-only'>Display filter</legend>
+              <legend className='sr-only'>{intl.formatMessage(messages.displayFilter)}</legend>
               <div className='space-y-2'>
                 <RadioButton name='order' value='active' label={intl.formatMessage(messages.recentlyActive)} checked={order === 'active'} onChange={handleChangeOrder} />
                 <RadioButton name='order' value='new' label={intl.formatMessage(messages.newArrivals)} checked={order === 'new'} onChange={handleChangeOrder} />
@@ -65,9 +67,9 @@ const Directory = () => {
 
           {features.federating && (
             <div>
-              <Text weight='medium'>Fediverse filter</Text>
+              <Text weight='medium'>{intl.formatMessage(messages.fediverseFilter)}</Text>
               <fieldset className='mt-3'>
-                <legend className='sr-only'>Fediverse filter</legend>
+                <legend className='sr-only'>{intl.formatMessage(messages.fediverseFilter)}</legend>
                 <div className='space-y-2'>
                   <RadioButton name='local' value='1' label={intl.formatMessage(messages.local, { domain: instance.title })} checked={local} onChange={handleChangeLocal} />
                   <RadioButton name='local' value='0' label={intl.formatMessage(messages.federated)} checked={!local} onChange={handleChangeLocal} />

@@ -448,6 +448,8 @@
   "developers.settings_store.advanced": "Advanced settings",
   "developers.settings_store.hint": "It is possible to directly edit your user settings here. BE CAREFUL! Editing this section can break your account, and you will only be able to recover through the API.",
   "direct.search_placeholder": "Send a message to…",
+  "directory.filter.display": "表示フィルター",
+  "directory.filter.fediverse": "連合フィルター",
   "directory.federated": "既知の連合",
   "directory.local": "{domain}のみ",
   "directory.new_arrivals": "新着",
