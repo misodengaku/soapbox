@@ -89,7 +89,7 @@
 
 /* Emojis */
 [data-markup] img.emojione {
-  @apply w-5 h-5 m-0;
+  @apply max-h-[500px] mx-auto rounded-sm;
 }
 
 /* Markdown inline images (Pleroma) */
