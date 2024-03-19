@@ -1419,25 +1419,25 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.1.5.tgz#f0bada210a75fdf41101c48ddcc291e1b33b3f47"
   integrity sha512-3lClsx2F3ei6hup0LYFbbm+NH87qVTX/6T63IllEFCLjT7XCxmbgBM42sXf8LTZx0CE5VpRRUnISUbqSlsxGSA==
 
-"@fontsource/inter@^5.0.0":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.0.8.tgz#61b50cb0eb72b14ae1938d47c4a9a91546d2a50c"
-  integrity sha512-28knWH1BfOiRalfLs90U4sge5mpQ8ZH6FS0PTT+IZMKrZ7wNHDHRuKa1kQJg+uHcc6axBppnxll+HXM4c7zo/Q==
+"@fontsource/inter@^5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.0.17.tgz#43fb1bc6bcfbfbfc3a9d19a59a4a7ab99fc1c645"
+  integrity sha512-2meBGx1kt7u5LwzGc5Sz5rka6ZDrydg6nT3x6Wkt310vHXUchIywrO8pooWMzZdHYcyFY/cv4lEpJZgMD94bCg==
 
-"@fontsource/noto-sans-javanese@^5.0.16":
-  version "5.0.16"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-javanese/-/noto-sans-javanese-5.0.16.tgz#e6a2acad3b520e379a5f760196246951d6d7eb3e"
-  integrity sha512-foh5yX/kbY28QMx6jU8aezMLAnBTKscNAVeuDIt8myScEDqXDm+1v2pIxVCh0zZUyxt/Yj/qkDTOM/Vegq9hzA==
+"@fontsource/noto-sans-javanese@^5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-javanese/-/noto-sans-javanese-5.0.17.tgz#2750ccae93c6775acb90e52eb01b85581ffb89f0"
+  integrity sha512-yJdjs4Rj5oZKks8Ya9T5E+/7tX//1YjMFiu5WlaCChjOvYE+Y4Hxh/v8lSGs3AAwVpKcYsFcbAArnfs4RWeybw==
 
-"@fontsource/roboto-mono@^5.0.0":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/roboto-mono/-/roboto-mono-5.0.8.tgz#9b3df61f884f46e12d3eca46e75517fde58da68e"
-  integrity sha512-vjnNX8zQCSp4HadUJ3gpZiizCsK/ROjgGMpd4bcRxuyiTNGGMaznmKbhqdyVeFVap1sX8h2Qu380awaotey/mQ==
+"@fontsource/roboto-mono@^5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-mono/-/roboto-mono-5.0.17.tgz#c73c650c8da27a7f89bf8829da7d14573d1da9a5"
+  integrity sha512-MU6FrAyG7DWMCL8mu0JDPvB2tnFcn/lYvVKixzqHb2uefRsLaD6OBFfF1q5RMFsKcFHyPySHM7ZcGw/Q6A1/FA==
 
-"@fontsource/tajawal@^5.0.8":
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/tajawal/-/tajawal-5.0.8.tgz#cd8a593ec5062b283b093b56ee5d38b6b97fa93d"
-  integrity sha512-KILlXB6B8YYcssz3pccPs/4s1XcXwTWogCtE4Ag3oTpK+81DIQLc2b9o77UiBP4yC17MmqeOp1lvoaJQP80RoA==
+"@fontsource/tajawal@^5.0.12":
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/tajawal/-/tajawal-5.0.12.tgz#4bdcd1820f40db3be730d23124b19fc92639a0f0"
+  integrity sha512-j84blHdm3DiKO0lVsqk3fh0L2mub8ROiepMffnSOdXDtaO+cQY0comf8MlatmSs+vRhgvJVuxPQihfe/7SgprA==
 
 "@formatjs/cli@^6.2.0":
   version "6.2.0"
