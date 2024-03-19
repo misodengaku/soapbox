@@ -2460,10 +2460,10 @@
   dependencies:
     "@types/trusted-types" "*"
 
-"@types/escape-html@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/escape-html/-/escape-html-1.0.1.tgz#b19b4646915f0ae2c306bf984dc0a59c5cfc97ba"
-  integrity sha512-4mI1FuUUZiuT95fSVqvZxp/ssQK9zsa86S43h9x3zPOSU9BBJ+BfDkXwuaU7BfsD+e7U0/cUUfJFk3iW2M4okA==
+"@types/escape-html@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/escape-html/-/escape-html-1.0.4.tgz#dc7c166b76c7b03b27e32f80edf01d91eb5d9af2"
+  integrity sha512-qZ72SFTgUAZ5a7Tj6kf2SHLetiH5S6f8G5frB2SPQ3EyF02kxdyBFf4Tz4banE3xCgGnKgWLt//a6VuYHKYJTg==
 
 "@types/eslint-scope@^3.7.3":
   version "3.7.3"
@@ -2514,10 +2514,10 @@
   resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.1.tgz#0ea7b61496902b95890dc4c3a116b60cb8dae812"
   integrity sha512-SZs7ekbP8CN0txVG2xVRH6EgKmEm31BOxA07vkFaETzZz1xh+cbt8BcI0slpymvwhx5dlFnQG2rTlPVQn+iRPQ==
 
-"@types/http-link-header@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@types/http-link-header/-/http-link-header-1.0.3.tgz#899adf1d8d2036074514f3dbd148fb901ceff920"
-  integrity sha512-y8HkoD/vyid+5MrJ3aas0FvU3/BVBGcyG9kgxL0Zn4JwstA8CglFPnrR0RuzOjRCXwqzL5uxWC2IO7Ub0rMU2A==
+"@types/http-link-header@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@types/http-link-header/-/http-link-header-1.0.5.tgz#732f04e2eabdfdaf3cc48d44aa15026e1e2d6e91"
+  integrity sha512-AxhIKR8UbyoqCTNp9rRepkktHuUOw3DjfOfDCaO9kwI8AYzjhxyrvZq4+mRw/2daD3hYDknrtSeV6SsPwmc71w==
   dependencies:
     "@types/node" "*"
 
@@ -2560,20 +2560,20 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.45.tgz#2c0fafd78705e7a18b7906b5201a522719dc5190"
   integrity sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==
 
-"@types/object-assign@^4.0.30":
-  version "4.0.30"
-  resolved "https://registry.yarnpkg.com/@types/object-assign/-/object-assign-4.0.30.tgz#8949371d5a99f4381ee0f1df0a9b7a187e07e652"
-  integrity sha1-iUk3HVqZ9Dge4PHfCpt6GH4H5lI=
+"@types/object-assign@^4.0.33":
+  version "4.0.33"
+  resolved "https://registry.yarnpkg.com/@types/object-assign/-/object-assign-4.0.33.tgz#62546e6192d6fa639b040afdbb514bb10daff2dd"
+  integrity sha512-HeuamLPmpVPuJU/oY7z/YGAezy4HFy6mhvzwupi9Xc8n0FKY8tR1/U3AKaOn/I5Mb4dvbw2szSYcXi84eW07TQ==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/path-browserify@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/path-browserify/-/path-browserify-1.0.0.tgz#294ec6e88b6b0d340a3897b7120e5b393f16690e"
-  integrity sha512-XMCcyhSvxcch8b7rZAtFAaierBYdeHXVvg2iYnxOV0MCQHmPuRRmGZPFDRzPayxcGiiSL1Te9UIO+f3cuj0tfw==
+"@types/path-browserify@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/path-browserify/-/path-browserify-1.0.2.tgz#14b62d4371316016f254b9cca5c10e60ef33dcc0"
+  integrity sha512-ZkC5IUqqIFPXx3ASTTybTzmQdwHwe2C0u3eL75ldQ6T9E9IWFJodn6hIfbZGab73DfyiHN4Xw15gNxUq2FbvBA==
 
 "@types/prop-types@*":
   version "15.7.4"
