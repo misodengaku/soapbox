@@ -7263,6 +7263,15 @@ postcss@^8.4.32:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+postcss@^8.4.35:
+  version "8.4.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.36.tgz#dba513c3c3733c44e0288a712894f8910bbaabc6"
+  integrity sha512-/n7eumA6ZjFHAsbX30yhHup/IMkOmlmvtEi7P+6RMYf+bGJSUHc3geH4a0NSZxAz/RJfiS9tooCTs9LAVYUZKw==
+  dependencies:
+    nanoid "^3.3.7"
+    picocolors "^1.0.0"
+    source-map-js "^1.1.0"
+
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
@@ -8211,6 +8220,11 @@ slice-ansi@^4.0.0:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
+source-map-js@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.1.0.tgz#9e7d5cb46f0689fb6691b30f226937558d0fa94b"
+  integrity sha512-9vC2SfsJzlej6MAaMPLu8HiBSHGdRAJ9hVFYN1ibZoNkeanmDmLUcIrj6G9DGL7XMJ54AKg/G75akXl1/izTOw==
+
 source-map-support@~0.5.20:
   version "0.5.20"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
@@ -9066,10 +9080,10 @@ vite-plugin-compile-time@^0.2.1:
     esbuild "^0.19.1"
     magic-string "^0.30.2"
 
-vite-plugin-html@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-html/-/vite-plugin-html-3.2.0.tgz#0d4df9900642a321a139f1c25c05195ba9d0ec79"
-  integrity sha512-2VLCeDiHmV/BqqNn5h2V+4280KRgQzCFN47cst3WiNK848klESPQnzuC3okH5XHtgwHH/6s1Ho/YV6yIO0pgoQ==
+vite-plugin-html@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-html/-/vite-plugin-html-3.2.2.tgz#661834fa09015d3fda48ba694dbaa809396f5f7a"
+  integrity sha512-vb9C9kcdzcIo/Oc3CLZVS03dL5pDlOFuhGlZYDCJ840BhWl/0nGeZWf3Qy7NlOayscY4Cm/QRgULCQkEZige5Q==
   dependencies:
     "@rollup/pluginutils" "^4.2.0"
     colorette "^2.0.16"
@@ -9095,10 +9109,10 @@ vite-plugin-pwa@^0.17.0:
     workbox-build "^7.0.0"
     workbox-window "^7.0.0"
 
-vite-plugin-require@^1.1.10:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/vite-plugin-require/-/vite-plugin-require-1.1.10.tgz#da0f0b68ded54f0a933fe72baa34617066493779"
-  integrity sha512-Hi7+SAFbIQk5rOz8aw/ETF1VAoo7b2D0Tz0ZmcREgiZcZLxtOMcJ+lTQcB6J8Xdb1mTPrMGwy2LPYW3IKTdE1g==
+vite-plugin-require@^1.1.14:
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/vite-plugin-require/-/vite-plugin-require-1.1.14.tgz#cdc6d2cf68c7d7ae3b894f643864eb010abcee91"
+  integrity sha512-AHKmuEBW3haGUdpFRcj/CONdmDRN+vQQWncMyoOP0SJJcdYdyynR35PsOS7Cro/i9jRrSK/PPiBpG7pppdS1ZQ==
   dependencies:
     "@babel/generator" "^7.15.4"
     "@babel/parser" "^7.15.6"
@@ -9107,23 +9121,34 @@ vite-plugin-require@^1.1.10:
     vue-loader "^15.9.8"
     webpack "^4.46.0 || ^5.0.0"
 
-vite-plugin-static-copy@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-static-copy/-/vite-plugin-static-copy-1.0.0.tgz#3caf5412b3a295a6daf55cfbcd97aa60bb9657ab"
-  integrity sha512-kMlrB3WDtC5GzFedNIPkpjnOAr8M11PfWOiUaONrUZ3AqogTsOmIhTt6w7Fh311wl8pN81ld7sfuOEogFJ9N8A==
+vite-plugin-static-copy@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-static-copy/-/vite-plugin-static-copy-1.0.1.tgz#c8aa9871d920b0de9c8583caae5510669546cf8e"
+  integrity sha512-3eGL4mdZoPJMDBT68pv/XKIHR4MgVolStIxxv1gIBP4R8TpHn9C9EnaU0hesqlseJ4ycLGUxckFTu/jpuJXQlA==
   dependencies:
     chokidar "^3.5.3"
     fast-glob "^3.2.11"
     fs-extra "^11.1.0"
     picocolors "^1.0.0"
 
-vite@^5.0.0, vite@^5.0.10:
+vite@^5.0.0:
   version "5.0.10"
   resolved "https://registry.yarnpkg.com/vite/-/vite-5.0.10.tgz#1e13ef5c3cf5aa4eed81f5df6d107b3c3f1f6356"
   integrity sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==
   dependencies:
     esbuild "^0.19.3"
     postcss "^8.4.32"
+    rollup "^4.2.0"
+  optionalDependencies:
+    fsevents "~2.3.3"
+
+vite@^5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-5.1.6.tgz#706dae5fab9e97f57578469eef1405fc483943e4"
+  integrity sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==
+  dependencies:
+    esbuild "^0.19.3"
+    postcss "^8.4.35"
     rollup "^4.2.0"
   optionalDependencies:
     fsevents "~2.3.3"
