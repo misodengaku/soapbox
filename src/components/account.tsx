@@ -213,6 +213,7 @@ const Account = ({
               <LinkEl {...linkProps}>
                 <HStack space={1} alignItems='center' grow>
                   <Text
+                    className='account-name'
                     size='sm'
                     weight='semibold'
                     truncate

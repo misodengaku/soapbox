@@ -22,6 +22,10 @@ noscript {
   text-align: center;
 }
 
+.account-name .emojione {
+  @apply h-4 -mt-[0.2ex] mb-[0.2ex] inline-block align-middle object-contain;
+}
+
 .emojione {
   @apply h-8 -mt-[0.2ex] mb-[0.2ex] inline-block align-middle object-contain;
 }

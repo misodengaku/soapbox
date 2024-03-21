@@ -142,7 +142,7 @@ const ProfileInfoPanel: React.FC<IProfileInfoPanel> = ({ account, username }) =>
       <Stack space={2}>
         <Stack>
           <HStack space={1} alignItems='center'>
-            <Text size='lg' weight='bold' dangerouslySetInnerHTML={displayNameHtml} truncate />
+            <Text size='lg' weight='bold' className='account-name' dangerouslySetInnerHTML={displayNameHtml} truncate />
 
             {account.bot && <Badge slug='bot' title={intl.formatMessage(messages.bot)} />}
 

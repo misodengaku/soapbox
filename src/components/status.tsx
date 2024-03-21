@@ -223,7 +223,7 @@ const Status: React.FC<IStatus> = (props) => {
                   >
                     <bdi className='truncate'>
                       <strong
-                        className='text-gray-800 dark:text-gray-200'
+                        className='text-gray-800 dark:text-gray-200 account-name'
                         dangerouslySetInnerHTML={{
                           __html: status.account.display_name_html,
                         }}
@@ -260,7 +260,7 @@ const Status: React.FC<IStatus> = (props) => {
                   <Link to={`/@${status.account.acct}`} className='hover:underline'>
                     <bdi className='truncate'>
                       <strong
-                        className='text-gray-800 dark:text-gray-200'
+                        className='text-gray-800 dark:text-gray-200 account-name'
                         dangerouslySetInnerHTML={{
                           __html: status.account.display_name_html,
                         }}
@@ -296,7 +296,7 @@ const Status: React.FC<IStatus> = (props) => {
                 group: (
                   <Link to={`/group/${group.slug}`} className='hover:underline'>
                     <bdi className='truncate'>
-                      <strong className='text-gray-800 dark:text-gray-200'>
+                      <strong className='text-gray-800 dark:text-gray-200 account-name'>
                         <span dangerouslySetInnerHTML={{ __html: group.display_name_html }} />
                       </strong>
                     </bdi>
